@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 require('passport');
 
+require('./models/User');
 require('./services/passport');
 require('./routes/authRoutes')(app);
 
