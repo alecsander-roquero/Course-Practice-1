@@ -14,8 +14,8 @@ passport.use(new GoogleStrategy({
                 done(null, existingUser);
             }else{
                 new User({ googleID: profile.id })
-                .then()
-                .save( user=>done(null, user) );
+                .save()
+                .then( user=>done(null, user) );
             }
         });
         console.log(profile);
