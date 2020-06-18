@@ -4,8 +4,3 @@ module.exports = {
     mongoURI: 'mongodb+srv://admin:OqUSui9WxrSOAVwk@cluster0-94itc.mongodb.net/userDB?retryWrites=true&w=majority',
     cookieKeys: 'ireallystillloveyoubutimusttletyougobecauseitistherightthingtododontworryiwillnotbotheryouanymorejustbehappy'
 }
-//shimi
-//
-//mongodb+srv://shimi:cpE7daK1CSyxMvgV@cluster0-r5ycr.mongodb.net/userDB?retryWrites=true&w=majority
-// client ID 1055983176251-sr7clinac3qnkm3ebscf7grdld9u7vnd.apps.googleusercontent.com
-// client secret usHKkb1bkAXzmi1g1IkhYiso
