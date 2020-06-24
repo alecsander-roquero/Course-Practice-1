@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowswerRoute, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 const Header = () => <h2>Header</h2>;
 const Dashboard = () => <h2>Dashboard</h2>;
@@ -8,7 +8,12 @@ const Landing = () => <h2>Landing</h2>;
 const App = () => {
     return(
         <div>
-            Hello there!
+            <BrowserRouter>
+                <div>
+                    <Route path="/" component={Landing} />
+
+                </div>
+            </BrowserRouter>
         </div>
     );
 }
